@@ -23,11 +23,11 @@ This program generates Solana wallets until it finds one that starts with a spec
 ## Example Output
 
 ```
-Target prefix: JONO
+Target prefix: jono
 Status: 1000000 wallets generated in 8.6269127s
 Status: 2000000 wallets generated in 16.4320478s
 Status: 3000001 wallets generated in 26.6121211s
-Success! Wallet found: JONOVzg...
+Success! Wallet found: jonoVzg...
 Secret Key: 3Hj1q4jKj4f...
 Attempts required: 3256789, Time elapsed: 28m15s
 ```
