@@ -1,4 +1,4 @@
-# Solana-Vanity
+# Solana Vanity
 
 This program generates Solana wallets until it finds one that starts with a specified prefix. During the process, it provides updates on how many wallets have been generated. Once a matching wallet is found, it outputs the wallet's public and private keys.
 
@@ -8,9 +8,17 @@ This program generates Solana wallets until it finds one that starts with a spec
 
 2. **Clone or Download the Program**: Obtain a copy of the program on your machine. If you have git installed, you can clone it using a git command. Alternatively, download the source code as a ZIP file and extract it.
 
-3. **Navigate to the Program Directory**: Use a terminal (or command prompt) to navigate to the directory containing the program files.
+3. **Edit Your Wallet Prefix**: Before running the program, open `main.go` in a text editor. Locate line 14 and replace the `searchTerm` variable's value with the prefix you wish to search for in generated wallet addresses.
 
-4. **Run the Program**: In the terminal, run the command `go run main.go`. Make sure you're in the directory where `main.go` is located.
+    ```go
+    var searchTerm = "YOUR_PREFIX_HERE"
+    ```
+
+    Replace `"YOUR_PREFIX_HERE"` with your desired wallet prefix.
+
+4. **Navigate to the Program Directory**: Use a terminal (or command prompt) to navigate to the directory containing the program files.
+
+5. **Run the Program**: In the terminal, run the command `go run main.go`. Make sure you're in the directory where `main.go` is located.
 
 ## Example Output
 
